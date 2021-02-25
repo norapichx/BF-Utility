@@ -4,7 +4,9 @@ VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
 print'Anti Afk ran'
-while wait(1) do
+
+while _G.yeet do
+wait(1)
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "kaikaikowa03" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
