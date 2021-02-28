@@ -8,7 +8,7 @@ print'Anti Afk ran'
 while _G.yeet do
 wait(1)
 for i,v in pairs(game.Workspace:GetDescendants()) do
-    if v.Name == "EVNFR_999" then
+    if v.Name == "festzaza87" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
         end
     end
