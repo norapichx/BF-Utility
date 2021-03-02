@@ -4,7 +4,12 @@ VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
 print'Anti Afk ran'
+local args = {
+    [1] = "SetTeam",
+    [2] = "Pirates"
+}
 
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 while _G.yeet do
 wait(1)
 for i,v in pairs(game.Workspace:GetDescendants()) do
