@@ -1,15 +1,15 @@
-local VirtualUser=game:service'VirtualUser'
-game:service'Players'.LocalPlayer.Idled:connect(function()
-VirtualUser:CaptureController()
-VirtualUser:ClickButton2(Vector2.new())
-end)
-print'Anti Afk ran'
 local args = {
     [1] = "SetTeam",
     [2] = "Pirates"
 }
 
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+local VirtualUser=game:service'VirtualUser'
+game:service'Players'.LocalPlayer.Idled:connect(function()
+VirtualUser:CaptureController()
+VirtualUser:ClickButton2(Vector2.new())
+end)
+print'Anti Afk ran'
 while _G.yeet do
 wait(1)
 for i,v in pairs(game.Workspace:GetDescendants()) do
