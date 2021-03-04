@@ -5,6 +5,7 @@ VirtualUser:CaptureController()
 VirtualUser:ClickButton2(Vector2.new())
 end)
 print'Anti Afk ran'
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy",1,2)
 wait (10)
 local args = {
     [1] = "SetTeam",
