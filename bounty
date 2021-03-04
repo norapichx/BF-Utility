@@ -6,7 +6,7 @@ VirtualUser:ClickButton2(Vector2.new())
 end)
 print'Anti Afk ran'
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy",1,2)
-wait (10)
+wait (5)
 local args = {
     [1] = "SetTeam",
     [2] = "Pirates"
@@ -14,7 +14,7 @@ local args = {
 
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 
-wait(1)
+wait(0.8)
 for i=1,40 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "Tigger_LS" then
@@ -28,7 +28,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 
-wait(1)
+wait(0.8)
 for i=1,40 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "EVNFR_999" then
@@ -42,7 +42,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 
-wait(1)
+wait(0.8)
 for i=1,40 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "SFV2551" then
@@ -56,7 +56,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 
-wait(1)
+wait(0.8)
 for i=1,40 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "Khawnearw" then
@@ -70,7 +70,7 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 
-wait(1)
+wait(0.8)
 for i=1,40 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "Mazged" then
