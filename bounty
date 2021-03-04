@@ -28,7 +28,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 
 wait(1)
-for i=1,40 do
+for i=1,45 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "EVNFR_999" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
