@@ -6,7 +6,7 @@ VirtualUser:ClickButton2(Vector2.new())
 end)
 print'Anti Afk ran'
 
-wait (5)
+wait (1)
 local args = {
     [1] = "SetTeam",
     [2] = "Pirates"
@@ -14,10 +14,10 @@ local args = {
 
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 
-wait(0.8)
+wait(0.5)
 for i=1,40 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
-    if v.Name == "SFV2551" then
+    if v.Name == "geneSurvival" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
         end
     end
