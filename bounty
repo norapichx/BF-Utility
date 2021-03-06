@@ -11,7 +11,6 @@ local args = {
     [1] = "SetTeam",
     [2] = "Pirates"
 }
-
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 
 wait(0.5)
@@ -39,7 +38,8 @@ local args = {
     [1] = "EnablePvp"
 }
 
-game:
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+end
 
 wait(0.6)
 loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
