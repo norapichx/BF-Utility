@@ -12,7 +12,7 @@ local args = {
     [2] = "Pirates"
 }
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy",1,2)
 -- Character 1
 wait(0.5)
 for i=1,40 do
