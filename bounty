@@ -28,5 +28,18 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 
+wait(0.5)
+for i=1,40 do
+for i,v in pairs(game.Workspace:GetDescendants()) do
+    if v.Name == "gnav123c" then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+        end
+    end
+local args = {
+    [1] = "EnablePvp"
+}
+
+game:
+
 wait(0.6)
 loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
