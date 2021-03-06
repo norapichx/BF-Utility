@@ -92,5 +92,3 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 end
 -- end 5
 
-wait(0.6)
-loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
