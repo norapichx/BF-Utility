@@ -12,10 +12,10 @@ local args = {
     [2] = "Pirates"
 }
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy",1,2)
+
 -- Character 1
-wait(0.5)
-for i=1,40 do
+wait(1)
+for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "geneSurvival" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
@@ -25,12 +25,14 @@ local args = {
     [1] = "EnablePvp"
 }
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
 end
 -- end 1
 
 -- Character 2
-wait(0.5)
-for i=1,40 do
+wait(1)
+for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "Tiger_LS" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
@@ -39,14 +41,15 @@ for i,v in pairs(game.Workspace:GetDescendants()) do
 local args = {
     [1] = "EnablePvp"
 }
-
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
 end
 -- end 2
 
 -- Character 3
-wait(0.5)
-for i=1,40 do
+wait(1)
+for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "SFV2551" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
@@ -55,14 +58,15 @@ for i,v in pairs(game.Workspace:GetDescendants()) do
 local args = {
     [1] = "EnablePvp"
 }
-
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
 end
 -- end 3
 
 -- Character 4
-wait(0.5)
-for i=1,40 do
+wait(1)
+for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "EVNFR_999" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
@@ -71,14 +75,15 @@ for i,v in pairs(game.Workspace:GetDescendants()) do
 local args = {
     [1] = "EnablePvp"
 }
-
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
 end
 -- end 4
 
 -- Character 5
-wait(0.5)
-for i=1,40 do
+wait(1)
+for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "gnav123c" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
@@ -87,8 +92,11 @@ for i,v in pairs(game.Workspace:GetDescendants()) do
 local args = {
     [1] = "EnablePvp"
 }
-
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
 end
 -- end 5
 
+wait(2)
+loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
