@@ -19,7 +19,7 @@ wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "geneSurvival" then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
 local args = {
@@ -35,8 +35,8 @@ end
 wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
-    if v.Name == "Tiger_LS" then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+    if v.Name == "Tigger_LS" then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
 local args = {
@@ -53,7 +53,7 @@ wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "SFV2551" then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
 local args = {
@@ -70,7 +70,7 @@ wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "EVNFR_999" then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
 local args = {
@@ -87,7 +87,7 @@ wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
     if v.Name == "gnav123c" then
-        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-5)
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
 local args = {
@@ -99,5 +99,5 @@ print'Success'
 end
 -- end 5
 
-wait(2)
+wait(1.5)
 loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
