@@ -31,6 +31,40 @@ print'Success'
 end
 -- end 1
 
+-- Character 2
+wait(1)
+for i=1,5 do
+for i,v in pairs(game.Workspace:GetDescendants()) do
+    if v.Name == "gnav123c" then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
+        end
+    end
+local args = {
+    [1] = "EnablePvp"
+}
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
+end
+-- end 2
+
+-- Character 1
+wait(1)
+for i=1,5 do
+for i,v in pairs(game.Workspace:GetDescendants()) do
+    if v.Name == "skyon_b" then
+        game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
+        end
+    end
+local args = {
+    [1] = "EnablePvp"
+}
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+    wait(5)
+print'Success'
+end
+-- end 3
+
 
 wait(0.5)
 loadstring(game:GetObjects("rbxassetid://2662507900")[1].Source)()
