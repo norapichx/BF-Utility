@@ -18,7 +18,7 @@ game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy"
 wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
-    if v.Name == "gnav123c" then
+    if v.Name == "Tigger_LS" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
