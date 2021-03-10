@@ -13,25 +13,12 @@ local args = {
 }
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy",1,2)
-local args = {
-    [1] = "GetFruits"
-}
-
-game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-wait(0.5)
-local args = {
-    [1] = "PurchaseRawFruit",
-    [2] = "Quake-Quake"
-}
-
-game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
-
 
 -- Character 1
 wait(1)
 for i=1,5 do
 for i,v in pairs(game.Workspace:GetDescendants()) do
-    if v.Name == "gnav123c" then
+    if v.Name == "pongpon7777" then
         game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = v.HumanoidRootPart.CFrame * CFrame.new(0,0,-3)
         end
     end
