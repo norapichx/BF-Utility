@@ -14,6 +14,12 @@ local args = {
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
 game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer("Candies","Buy",1,2)
 local args = {
+    [1] = "GetFruits"
+}
+
+game:GetService("ReplicatedStorage").Remotes.CommF_:InvokeServer(unpack(args))
+wait(0.5)
+local args = {
     [1] = "PurchaseRawFruit",
     [2] = "Quake-Quake"
 }
