@@ -1,5 +1,4 @@
 while _G.A do
-
 game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-384.568451, 73.0200958, 352.956787) --Star Point
 wait(1.5)
 game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-411.27533, 73.0200958, 372.053772)
@@ -123,5 +122,6 @@ wait(1.5)
 game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5673.41504, 15.9517012, -4394.90625)
 wait(1.5)
 game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-5780.48242, 15.8874922, -4478.44873)
-game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-384.568451, 73.0200958, 352.956787) --Stop Point
+game:service'Players'.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(3777.8457, 14.8506517, -3499.18555) --Dark Arena Point
+wait(300)
 end
